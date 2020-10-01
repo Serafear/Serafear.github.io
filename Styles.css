@@ -14,7 +14,6 @@ body
 {
     
     font-family: 'raleway';
-    width: auto;
     
 }
 
@@ -64,7 +63,7 @@ header
 nav ul
 {
     list-style-type: none;
-    justify-content: space-between;
+    
     margin-bottom: 3em;
     font-size: 1.2em;
     margin-right: 1.8em;
@@ -88,7 +87,7 @@ nav li
 {
     font-size: 0.8em;
     margin-right: 2em;
-    justify-content: space-evenly;
+    
 }
 
 #part1 span
@@ -98,18 +97,6 @@ nav li
     padding-top: 40px;
     padding-right: 20px;
     padding-left: 20px;
-}
-
-#reste
-{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-#reste li
-{
-    margin-right: 50px;
 }
 
 
@@ -440,16 +427,18 @@ aside .overlay
 #Populaires
 {
     display: flex;
-    
+    flex-direction: row;
 }
 
 
 #Populaires img
 {
+    display: flex;
     height: 1.6em;
     padding-left: 10em;
     padding-top: 1.2em;
-    
+    padding-bottom: 1em;
+    margin-top: -1.4em;
 }
 
 aside article h3
@@ -663,20 +652,21 @@ footer a
     #Logo img
     {
     
-        width: 7em;
-        height: auto;
+        width: auto;
+        height: 3em;
         position: fixed left;
         margin-top: 2em;
         margin-bottom: 3em;
         margin-left: 1.5em;
+        padding-bottom: 2em;
         
     }
     
     header
     {
-        display: block;
+        
         justify-content: left;
-    
+
     }
     
     #Titre_principal h1
@@ -684,6 +674,7 @@ footer a
         font-size: 1.4em;
         margin-top: 1em;
         margin-left: 0.8em;
+        width: auto;
     }
     
     #Titre_principal p
@@ -695,11 +686,11 @@ footer a
     
     #navigation
     {
-        display: flex;
+        
         margin-top: -1.9em;
         padding-bottom: 1em;
-        
-        
+        margin-left: -8em;
+        width: 23.5em;
     }
     nav ul
     {
@@ -715,7 +706,6 @@ footer a
         text-decoration: none;
         color: #0065FC;
         cursor: pointer;
-
     }
     
     nav li :hover
@@ -734,11 +724,11 @@ footer a
     
     #problème
     {
-        display: flex;
-        margin-top: -3.4em;
-        margin-left: -10em;
+        margin-top: -4.2em;
+        margin-left: -6em;
         font-size: 1.1em;
-        
+        position: relative;
+        margin-right: 0em;
     }
 
     #part1 span 
@@ -752,20 +742,22 @@ footer a
        border-bottom-color: #F2F2F2;
        font-size: 1.3em;
        border-bottom-width: 5px;
-       margin-left: -1em;
+       margin-left: -0.5em;
        padding-left: 1.5em;
        padding-right: 1em;
        margin-right: -1em;
        padding-bottom: 0.5em;
     }
-   
-    
+
     #part1 :hover
     {
         border-bottom-color :#0065FC;
     }
 
-    
+    #part2
+    {
+        width: 10.5em;
+    }
     #part2 li
     {
         display: flex;
@@ -774,14 +766,13 @@ footer a
         font-size: 1.3em;
         border-bottom-width: 5px;
         margin-left: -1em;
-        margin-right: 4em;
-        padding-right: 2.5em;
-        padding-left: 4.5em;
+        margin-right: 2.5em;
+        padding-right: 7em;
+        padding-left: 4em;
         padding-bottom: 0.5em;
     }
     #part2 a 
     {
-        position: relative;
         margin-right: 1em;
         margin-left: -1em;
        
@@ -858,9 +849,9 @@ footer a
     #barre_filtres
     {
         
-        display: inline-block;
+        display: block;
         width: 19em;
-        font-size: 1.2em;
+        font-size: 1.1em;
         flex-direction: row;
         padding-top: 1.4em;
         margin-left: 1em;
@@ -873,6 +864,7 @@ footer a
         margin-top: -1.2em;
         font-size: 1.3em;
         padding-top: 1em;
+        width: 7.5em;
     }
         
     .btn
@@ -1001,7 +993,7 @@ footer a
     
     #info
     {
-        display: flex;
+        
         font-size: 15px;
         padding-bottom: 1em;
         margin-left: 1em;
@@ -1131,7 +1123,7 @@ footer a
         padding: 1em 1em 1em 1.2em;
         margin-bottom: 2em; 
         margin-right: 0.7em;
-        
+
     }
 
     aside article
@@ -1157,9 +1149,9 @@ footer a
 
     #Populaires
     {
-        
+        display: flex;
         padding-bottom: 1.1em;
-        clear: both;
+        flex-direction: row;
     }
     #Populaires h1
     {
@@ -1174,7 +1166,7 @@ footer a
         padding-top: 1em;
         margin-left: 4em;
         padding-bottom: 1em;
-     
+        margin-top: 0em;
     }
 
     aside article h3
@@ -1223,8 +1215,8 @@ footer a
     }
     #Activités
     {
-    display: inline-block;
-    margin-left: 1.6em;
+        display: block;
+        margin-left: 1.6em;
     }
     #Activités article
     {
@@ -1344,10 +1336,12 @@ footer a
     #A_propos
     {
     padding-bottom: 2em;
+    padding-right: 0em;
     }
     #Nos_hébergements
     {
     padding-bottom: 2em;
+    padding-right: 0em;
     }
     #liens :hover
     {
@@ -1361,11 +1355,11 @@ footer a
     #Logo img
     {
     
-        width: 10em;
+        width: 8em;
         height: auto;
         position: fixed left;
         margin-top: 2em;
-        margin-bottom: 3em;
+        margin-bottom: 3.5em;
         margin-left: 1.5em;
         
     }
@@ -1386,7 +1380,7 @@ footer a
     
     #Titre_principal p
     {
-        font-size: 1.5em;
+        font-size: 1.6em;
         margin-left: 1.7em;
         padding-bottom: 1.5em;
     }
@@ -1394,7 +1388,7 @@ footer a
     #navigation
     {
         display: flex;
-        margin-top: -1.9em;
+        margin-top: -2.5em;
         padding-bottom: 2.5em;
         justify-content: space-between;
     }
@@ -1434,7 +1428,10 @@ footer a
         display: flex;
         font-size: 1.5em;
         margin-top: -4em;
-        margin-left: -5em;
+        position: relative;
+        right: 4em;
+       margin-left: -2em;
+       padding-left: 2.3em;
     }
 
     #part1 span 
@@ -1462,7 +1459,10 @@ footer a
         border-bottom-color :#0065FC;
     }
 
-    
+    #part2 
+    {
+        width: 20em;
+    }
     #part2 li
     {
         border-bottom-style: solid;
@@ -1471,7 +1471,7 @@ footer a
         border-bottom-width: 5px;
         margin-left: 3em;
         margin-right: 1em;
-        padding-right: 4em;
+        padding-right: 10.3em;
         padding-left: 2em;
         padding-bottom: 0.5em;
     }
@@ -1928,7 +1928,7 @@ footer a
     }
     #Activités
     {
-    display: inline-block;
+    display: block;
     margin-left: 1.6em;
     }
     #Activités article

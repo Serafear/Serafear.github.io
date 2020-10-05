@@ -22,7 +22,7 @@ body
     display: flex;
     width: 8em;
     height: auto;
-    position: fixed left;
+    
     margin-top: 40px;
     margin-bottom: 30px;
     margin-left: 2.5em;
@@ -129,7 +129,7 @@ nav li
     padding: 9px 9px 9px 9px;
     margin: -5px;
     margin-bottom: 0px;
-    border-radius: none;
+    
 }  
 
 .searchbutton
@@ -317,7 +317,7 @@ nav li
     margin-left: 1.8em;
 }
 
-#block1 h1
+#block1 h2
 {
     padding: 0.5em 0.5em 0.2em 0.2em;
     margin-left: 35px;
@@ -365,7 +365,7 @@ article img
     
 }
 
-#Hébergements article h3
+#Hébergements article h4
 {
     margin-top: 175px;
     margin-bottom: -15px;
@@ -373,7 +373,7 @@ article img
     padding: 1em 1em 1em 0.5em;
     
 }
-#Hébergements article h4
+#Hébergements article h5
 {
     font-size: 0.8em;
     font-weight: normal;
@@ -429,26 +429,30 @@ aside .overlay
     display: flex;
     flex-direction: row;
 }
-
+#Populaires h2
+{
+    white-space: nowrap;
+    padding-bottom: 1em;
+}
 
 #Populaires img
 {
     display: flex;
     height: 1.6em;
-    padding-left: 10em;
+    padding-left: 9em;
     padding-top: 1.2em;
     padding-bottom: 1em;
     margin-top: -1.4em;
 }
 
-aside article h3
+aside article h4
 {
     margin-top: 0em;
     font-size: 0.9em;
     padding: 1em 1em 1em 1em;
     
 }
-aside article h4
+aside article h5
 {
     font-size: 0.8em;
     font-weight: normal;
@@ -511,9 +515,9 @@ aside article:hover
 {
     height: 35em;
 }
-#vieux_port h3
+#vieux_port h4
 {
-    margin-top: 27.47em;
+    margin-top: 32.2em;
     padding: 0.6em 1em 1em 1em;
   
 }
@@ -522,9 +526,9 @@ aside article:hover
 {
     height: 16.7em;
 }
-#pomègues h3
+#pomègues h4
 {
-    margin-top: 11.78em;
+    margin-top: 13.8em;
     padding: 0.6em 1em 1em 1em;
 }
 
@@ -532,9 +536,9 @@ aside article:hover
 {
     height: 16.7em;
 }
-#frioul h3
+#frioul h4
 {
-    margin-top: 11.78em;
+    margin-top: 13.8em;
     padding: 0.6em 1em 1em 1em;
 }
 
@@ -543,9 +547,9 @@ aside article:hover
     height: 35em;
     
 }
-#calanques h3
+#calanques h4
 {
-    margin-top: 27.47em;
+    margin-top: 32.2em;
     padding: 0.6em 1em 1em 1em;
 }
 
@@ -553,9 +557,9 @@ aside article:hover
 {
     height: 16.7em;
 }
-#la_garde h3
+#la_garde h4
 {
-    margin-top: 11.78em;
+    margin-top: 13.8em;
     padding: 0.6em 1em 1em 1em;
 }
 
@@ -563,9 +567,9 @@ aside article:hover
 {
     height: 16.7em;
 }
-#longchamp h3
+#longchamp h4
 {
-    margin-top: 11.78em;
+    margin-top: 13.8em;
     padding: 0.6em 1em 1em 1em;
 }
 
@@ -581,6 +585,10 @@ aside article:hover
 {
     margin-top: 3em;
     margin-left: 1.5em;
+}
+#possibilities2 h2
+{
+    padding-bottom: 1em;
 }
 #possibilities2 a 
 {
@@ -610,35 +618,41 @@ footer a
 {
     padding-right: 30em;
 }
-#A_propos h2
+#A_propos h3
 {
     padding-bottom: 0.5em;
+    font-size: 1.5em;
 }
-#A_propos h5
+#A_propos h6
 {
-     padding-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 0.8em;
 }
 
 #Nos_hébergements
 {
     padding-right: 30em;
 }
-#Nos_hébergements h2
+#Nos_hébergements h3
 {
     padding-bottom: 0.5em;
+    font-size: 1.5em;
 }
-#Nos_hébergements h5
+#Nos_hébergements h6
 {
     padding-bottom: 0.5em;
+    font-size: 0.8em;
 }
 
-#Assistance h2
+#Assistance h3
 {
     padding-bottom: 0.5em;
+    font-size: 1.5em;
 }
-#Assistance h5
+#Assistance h6
 {
     padding-bottom: 0.5em;
+    font-size: 0.8em;
 }
 
 #liens :hover
@@ -654,7 +668,7 @@ footer a
     
         width: auto;
         height: 3em;
-        position: fixed left;
+        
         margin-top: 2em;
         margin-bottom: 3em;
         margin-left: 1.5em;
@@ -813,7 +827,7 @@ footer a
         padding: 9px 9px 9px 9px;
         margin-right: -1.8em;
         margin-bottom: 0px;
-        border-radius: none;
+        
     }  
     
     #Barre_de_recherche span
@@ -1029,7 +1043,7 @@ footer a
         padding-right: 1.2em;
         margin-left: -0.2em;
     }
-    #block1 h1
+    #block1 h2
     {
         font-size: 1.3em;
         margin-left: 1.5em;
@@ -1078,7 +1092,7 @@ footer a
         
     }
     
-    #Hébergements article h3
+    #Hébergements article h4
     {
         margin-top: 14.6em;
         margin-bottom: -0.2em;
@@ -1086,7 +1100,7 @@ footer a
         padding: 5px 5px 5px 5px;
         
     }
-    #Hébergements article h4
+    #Hébergements article h5
     {
         font-size: 0.7em;
         font-weight: normal;
@@ -1153,7 +1167,7 @@ footer a
         padding-bottom: 1.1em;
         flex-direction: row;
     }
-    #Populaires h1
+    #Populaires h2
     {
         white-space: nowrap;
         margin-top: 1em;
@@ -1164,19 +1178,19 @@ footer a
         width: 2em;
         padding-left: 2em;
         padding-top: 1em;
-        margin-left: 4em;
+        margin-left: 2em;
         padding-bottom: 1em;
-        margin-top: 0em;
+        margin-top: 0.5em;
     }
 
-    aside article h3
+    aside article h4
     {
     margin-top: 0em;
     font-size: 0.9em;
     padding: 1em 1em 1em 1em;
     
     }
-    aside article h4
+    aside article h5
     {
     font-size: 0.8em;
     font-weight: normal;
@@ -1209,7 +1223,7 @@ footer a
     color: #0065FC;
     }
 
-    #possibilities2 h1
+    #possibilities2 h2
     {
         margin-left: 1.4em
     }
@@ -1236,9 +1250,9 @@ footer a
     width: 20em;
     
     }
-    #vieux_port h3
+    #vieux_port h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.9em 1em 1em 1em;
   
     }
@@ -1248,9 +1262,9 @@ footer a
     height: 13em;
     
     }
-    #pomègues h3
+    #pomègues h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.9em 1em 1em 1em;
     }
 
@@ -1259,9 +1273,9 @@ footer a
     height: 13em;
     
     }
-    #frioul h3
+    #frioul h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.9em 1em 1em 1em;
     }
 
@@ -1270,9 +1284,9 @@ footer a
     height: 13em;
     
     }
-    #calanques h3
+    #calanques h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.6em 1em 1em 1em;
     }
 
@@ -1281,9 +1295,9 @@ footer a
     height: 13em;
     
     }
-    #la_garde h3
+    #la_garde h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.6em 1em 1em 1em;
     }
 
@@ -1292,9 +1306,9 @@ footer a
     height: 13em;
     
     }
-    #longchamp h3
+    #longchamp h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.6em 1em 1em 1em;
     }
 
@@ -1354,10 +1368,9 @@ footer a
 {
     #Logo img
     {
-    
         width: 8em;
         height: auto;
-        position: fixed left;
+        
         margin-top: 2em;
         margin-bottom: 3.5em;
         margin-left: 1.5em;
@@ -1521,7 +1534,6 @@ footer a
         padding: 0.25em 0.4em 0.25em 0.35em;
         margin-right: 1em;
         
-        border-radius: none;
     }  
     
     #Barre_de_recherche span
@@ -1737,14 +1749,11 @@ footer a
         padding-right: 0.5em;
         margin-left: 0.4em;
     }
-    #block1 h1
+    #block1 h2
     {
         font-size: 1.3em;
-        margin-left: 1.5em;
-        margin-right: 0em;
-        margin-bottom: 0.5em;
+        margin-left: 0.8em;
         margin-top: 1.1em;
-        padding-top: 0.5em;
     }
     
     #Hébergements
@@ -1791,7 +1800,7 @@ footer a
         
     }
     
-    #Hébergements article h3
+    #Hébergements article h4
     {
         margin-top: 14.6em;
         margin-bottom: 0em;
@@ -1799,7 +1808,7 @@ footer a
         padding: 5px 5px 5px 5px;
         
     }
-    #Hébergements article h4
+    #Hébergements article h5
     {
         font-size: 0.7em;
         font-weight: normal;
@@ -1861,34 +1870,32 @@ footer a
 
     #Populaires
     {
-        
-        padding-bottom: 1.1em;
-        clear: both;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
     }
-    #Populaires h1
+    #Populaires h2
     {
         white-space: nowrap;
-        margin-top: 1em;
+        font-size: 1.3em;
     }
     
     #Populaires img
     {
         width: 2em;
         padding-left: 2em;
-        padding-top: 1em;
+        padding-top: 0em;
         margin-left: 1em;
-        padding-bottom: 1em;
-     
+        margin-top: 0em;
     }
 
-    aside article h3
+    aside article h4
     {
     margin-top: 0em;
-    font-size: 0.9em;
-    padding: 1em 1em 1em 1em;
+    font-size: 0.8em;
+    padding: 1em 1em 2em 1em;
     
     }
-    aside article h4
+    aside article h5
     {
     font-size: 0.8em;
     font-weight: normal;
@@ -1921,7 +1928,7 @@ footer a
     color: #0065FC;
     }
 
-    #possibilities2 h1
+    #possibilities2 h2
     {
         padding-bottom: 0.5em;
         margin-left: -0.2em 
@@ -1949,9 +1956,9 @@ footer a
     width: 20em;
     
     }
-    #vieux_port h3
+    #vieux_port h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.9em 1em 1em 1em;
   
     }
@@ -1962,9 +1969,9 @@ footer a
     margin-left: 18em;
     margin-top: -14.7em;
     }
-    #pomègues h3
+    #pomègues h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.9em 1em 1em 1em;
     }
 
@@ -1973,9 +1980,9 @@ footer a
     height: 13em;
     
     }
-    #frioul h3
+    #frioul h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.9em 1em 1em 1em;
     }
 
@@ -1985,9 +1992,9 @@ footer a
     margin-left: 18em;
     margin-top: -14.7em;
     }
-    #calanques h3
+    #calanques h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.6em 1em 1em 1em;
     }
 
@@ -1996,9 +2003,9 @@ footer a
     height: 13em;
     
     }
-    #la_garde h3
+    #la_garde h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.6em 1em 1em 1em;
     }
 
@@ -2008,9 +2015,9 @@ footer a
     margin-left: 18em;
     margin-top: -14.7em;
     }
-    #longchamp h3
+    #longchamp h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.6em 1em 1em 1em;
     }
 
@@ -2066,10 +2073,9 @@ footer a
 {
     #Logo img
     {
-    
         width: 10em;
         height: auto;
-        position: fixed left;
+        
         margin-top: 2em;
         margin-bottom: 3em;
         margin-left: 3em;
@@ -2227,8 +2233,7 @@ footer a
         border-width: 1px;
         padding: 0.25em 0.4em 0.25em 0.35em;
         margin-right: 1em;
-        
-        border-radius: none;
+      
     }  
     
     #Barre_de_recherche span
@@ -2442,10 +2447,10 @@ footer a
         padding-right: 1em;
         margin-left: 0.5em;
     }
-    #block1 h1
+    #block1 h2
     {
-        font-size: 1.3em;
-        margin-left: 1.5em;
+        font-size: 1.5em;
+        margin-left: 1em;
         margin-right: 0em;
         margin-bottom: 0.2em;
         padding-top: 0.9em;
@@ -2490,11 +2495,11 @@ footer a
         background-color: white;
         opacity: 1;
         height: 4em;
-        width: 101%;
+        width: 100%;
         
     }
     
-    #Hébergements article h3
+    #Hébergements article h4
     {
         margin-top: 13.8em;
         margin-bottom: 0.2em;
@@ -2502,7 +2507,7 @@ footer a
         padding: 5px 5px 5px 5px;
         
     }
-    #Hébergements article h4
+    #Hébergements article h5
     {
         font-size: 0.8em;
         font-weight: normal;
@@ -2564,12 +2569,11 @@ footer a
 
     #Populaires
     {
-        
-        padding-bottom: 1.1em;
-        clear: both;
+        padding-top: 0.5em;
+        padding-bottom: 0.8em;
         margin-left: 0.5em;
     }
-    #Populaires h1
+    #Populaires h2
     {
         white-space: nowrap;
     }
@@ -2579,19 +2583,19 @@ footer a
         width: 2em;
         padding-left: 2em;
         padding-top: 1em;
-        margin-left: 4em;
-        padding-bottom: 1em;
-     
+        margin-left: 2em;
+        padding-bottom: 0em;
+        margin-top: -1em;
     }
 
-    aside article h3
+    aside article h4
     {
     margin-top: 0em;
     font-size: 0.9em;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 1em 2em 1em;
     
     }
-    aside article h4
+    aside article h5
     {
     font-size: 0.8em;
     font-weight: normal;
@@ -2624,7 +2628,7 @@ footer a
     color: #0065FC;
     }
 
-    #possibilities2 h1
+    #possibilities2 h2
     {
         padding-bottom: 1em;
         margin-left: 0.5em
@@ -2652,9 +2656,9 @@ footer a
     width: 21em;
     
     }
-    #vieux_port h3
+    #vieux_port h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.9em 1em 1em 1em;
   
     }
@@ -2666,9 +2670,9 @@ footer a
     margin-top: -15em;
     width: 21em;
     }
-    #pomègues h3
+    #pomègues h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.9em 1em 1em 1em;
     }
 
@@ -2677,9 +2681,9 @@ footer a
     height: 13em;
     width: 21em;
     }
-    #frioul h3
+    #frioul h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.9em 1em 1em 1em;
     }
 
@@ -2690,9 +2694,9 @@ footer a
     margin-top: -15em;
     width: 21em;
     }
-    #calanques h3
+    #calanques h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.6em 1em 1em 1em;
     }
 
@@ -2701,9 +2705,9 @@ footer a
     height: 13em;
     width: 21em;
     }
-    #la_garde h3
+    #la_garde h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.6em 1em 1em 1em;
     }
 
@@ -2714,9 +2718,9 @@ footer a
     margin-top: -15em;
     width: 21em;
     }
-    #longchamp h3
+    #longchamp h4
     {
-    margin-top: 9em;
+    margin-top: 10.1em;
     padding: 0.6em 1em 1em 1em;
     }
 
@@ -2775,7 +2779,7 @@ footer a
         display: flex;
         width: auto;
         height: 5.5em;
-        position: fixed left;
+        
         margin-top: 40px;
         margin-bottom: 30px;
         margin-left: 3em;
@@ -2893,8 +2897,7 @@ footer a
         border-color: #F2F2F2;
         border-width: 1px;
         padding: 9px 9px 9px 9px;
-        
-        border-radius: none;
+  
     }  
     
     .searchbutton
@@ -3077,9 +3080,9 @@ footer a
         
     }
     
-    #block1 h1
+    #block1 h2
     {
-        padding-left: 0 20px 0 20px;
+        padding: 0.6em 1em 0.6em 0em;
         margin-left: 35px;
     }
     
@@ -3126,7 +3129,7 @@ footer a
         
     }
     
-    #Hébergements article h3
+    #Hébergements article h4
     {
         margin-top: 175px;
         margin-bottom: -0.3em;
@@ -3134,7 +3137,7 @@ footer a
         padding: 5px 5px 5px 5px;
         
     }
-    #Hébergements article h4
+    #Hébergements article h5
     {
         font-size: 1em;
         font-weight: normal;
@@ -3192,7 +3195,7 @@ footer a
         padding-bottom: 1.1em;
     }
     
-    #Populaires h1
+    #Populaires h2
     {
         font-size: 1.5em;
         margin-bottom: -2em;
@@ -3207,14 +3210,14 @@ footer a
         margin-top: -1em;
     }
     
-    aside article h3
+    aside article h4
     {
         margin-top: 0em;
         font-size: 1.2em;
         padding: 1em 1em 1em 1em;
         
     }
-    aside article h4
+    aside article h5
     {
         font-size: 1.1em;
         font-weight: normal;
@@ -3277,9 +3280,9 @@ footer a
     {
         height: 20em;
     }
-    #vieux_port h3
+    #vieux_port h4
     {
-        margin-top: 14.7em;
+        margin-top: 17.1em;
         padding: 0.6em 1em 1em 1em;
       
     }
@@ -3290,9 +3293,9 @@ footer a
         margin-left: 34em;
         margin-top: -21em;
     }
-    #pomègues h3
+    #pomègues h4
     {
-        margin-top: 14.7em;
+        margin-top: 17.1em;
         padding: 0.6em 1em 1em 1em;
 
     }
@@ -3301,9 +3304,9 @@ footer a
     {
         height: 20em;
     }
-    #frioul h3
+    #frioul h4
     {
-        margin-top: 14.7em;
+        margin-top: 17.1em;
         padding: 0.6em 1em 1em 1em;
     }
     
@@ -3314,9 +3317,9 @@ footer a
         margin-top: -21em;
         
     }
-    #calanques h3
+    #calanques h4
     {
-        margin-top: 14.7em;
+        margin-top: 17.1em;
         padding: 0.6em 1em 1em 1em;
     }
     
@@ -3324,9 +3327,9 @@ footer a
     {
         height: 20em;
     }
-    #la_garde h3
+    #la_garde h4
     {
-        margin-top: 14.7em;
+        margin-top: 17.1em;
         padding: 0.6em 1em 1em 1em;
     }
     
@@ -3336,9 +3339,9 @@ footer a
         margin-left: 34em;
         margin-top: -21em;
     }
-    #longchamp h3
+    #longchamp h4
     {
-        margin-top: 14.7em;
+        margin-top: 17.1em;
         padding: 0.6em 1em 1em 1em;
     }
     
@@ -3354,7 +3357,7 @@ footer a
     {
         margin-top: 3em;
     }
-    #possibilities2 h1
+    #possibilities2 h2
     {
         padding-bottom: 1em;
     }
@@ -3405,7 +3408,7 @@ footer a
         display: flex;
         width: 9em;
         height: auto;
-        position: fixed left;
+        
         margin-top: 40px;
         margin-bottom: 30px;
         margin-left: 0px;
@@ -3517,7 +3520,7 @@ footer a
         padding: 9px 9px 9px 9px;
         margin: -5px;
         margin-bottom: 0px;
-        border-radius: none;
+        
     }  
     
     .searchbutton
@@ -3698,9 +3701,9 @@ footer a
         
     }
     
-    #block1 h1
+    #block1 h2
     {
-        padding-left: 0 20px 0 20px;
+        padding: 20px 20px 20px 20px;
         margin-left: 35px;
     }
     
@@ -3747,7 +3750,7 @@ footer a
         
     }
     
-    #Hébergements article h3
+    #Hébergements article h4
     {
         margin-top: 175px;
         margin-bottom: -15px;
@@ -3755,7 +3758,7 @@ footer a
         padding: 5px 5px 5px 5px;
         
     }
-    #Hébergements article h4
+    #Hébergements article h5
     {
         font-size: 0.8em;
         font-weight: normal;
@@ -3822,14 +3825,14 @@ footer a
         
     }
     
-    aside article h3
+    aside article h4
     {
         margin-top: 0em;
         font-size: 0.9em;
         padding: 1em 1em 1em 1em;
         
     }
-    aside article h4
+    aside article h5
     {
         font-size: 0.8em;
         font-weight: normal;
@@ -3892,7 +3895,7 @@ footer a
     {
         height: 20em;
     }
-    #vieux_port h3
+    #vieux_port h4
     {
         margin-top: 14.7em;
         padding: 0.6em 1em 1em 1em;
@@ -3905,7 +3908,7 @@ footer a
         margin-left: 34em;
         margin-top: -21em;
     }
-    #pomègues h3
+    #pomègues h4
     {
         margin-top: 14.7em;
         padding: 0.6em 1em 1em 1em;
@@ -3916,7 +3919,7 @@ footer a
     {
         height: 20em;
     }
-    #frioul h3
+    #frioul h4
     {
         margin-top: 14.7em;
         padding: 0.6em 1em 1em 1em;
@@ -3929,7 +3932,7 @@ footer a
         margin-top: -21em;
         
     }
-    #calanques h3
+    #calanques h4
     {
         margin-top: 14.7em;
         padding: 0.6em 1em 1em 1em;
@@ -3939,7 +3942,7 @@ footer a
     {
         height: 20em;
     }
-    #la_garde h3
+    #la_garde h4
     {
         margin-top: 14.7em;
         padding: 0.6em 1em 1em 1em;
@@ -3951,7 +3954,7 @@ footer a
         margin-left: 34em;
         margin-top: -21em;
     }
-    #longchamp h3
+    #longchamp h4
     {
         margin-top: 14.7em;
         padding: 0.6em 1em 1em 1em;
@@ -4016,7 +4019,7 @@ footer a
         display: flex;
         width: 13em;
         height: auto;
-        position: fixed left;
+        
         margin-top: 40px;
         margin-bottom: 30px;
         margin-left: 2.2em;
@@ -4134,7 +4137,7 @@ footer a
         padding: 9px 9px 9px 9px;
         margin-left: -0.2em;
         margin-bottom: 0px;
-        border-radius: none;
+       
     }  
     
     .searchbutton
@@ -4321,9 +4324,9 @@ footer a
         background-color: #F2F2F2;
     }
     
-    #block1 h1
+    #block1 h2
     {
-        padding-left: 0 20px 0 20px;
+        padding: 0.6em 1em 0.6em 0;
         margin-left: 35px;
         font-size: 2em;
     }
@@ -4370,7 +4373,7 @@ footer a
         width: 100%;
     }
     
-    #Hébergements article h3
+    #Hébergements article h4
     {
         margin-top: 8.6em;
         margin-bottom: 0em;
@@ -4378,7 +4381,7 @@ footer a
         padding: 5px 5px 5px 5px;
         
     }
-    #Hébergements article h4
+    #Hébergements article h5
     {
         font-size: 1.2em;
         font-weight: normal;
@@ -4434,31 +4437,30 @@ footer a
     #Populaires
     {
         display: flex;
-        padding-bottom: 1.1em;
-        font-size: 1.5em;
+        padding-bottom: 0em;
+        font-size: 1.3em;
         white-space: nowrap;
     }
-    #Populaires h1
+    #Populaires h2
     {
-        margin-top: 0.5em;
+        margin-top: 0em;
     }
     
     #Populaires img
     {
         height: 1.6em;
         padding-left: 8em;
-        padding-top: 0.4em;
-        
+        margin-top: -1em;
     }
     
-    aside article h3
+    aside article h4
     {
         margin-top: 0em;
         font-size: 1.4em;
         padding: 1em 1em 1em 1em;
         
     }
-    aside article h4
+    aside article h5
     {
         font-size: 1.4em;
         font-weight: normal;
@@ -4505,7 +4507,7 @@ footer a
         height: 110em;
     }
 
-    #possibilities2 h1
+    #possibilities2 h2
     {
         font-size: 1.9em;
         padding-bottom: 0.5em;
@@ -4527,9 +4529,9 @@ footer a
     {
         height: 42em;
     }
-    #vieux_port h3
+    #vieux_port h4
     {
-        margin-top: 33.4em;
+        margin-top: 39.1em;
         padding: 0.6em 1em 1em 1em;
       
     }
@@ -4540,9 +4542,9 @@ footer a
         margin-left: 38em;
         margin-top: -43em;
     }
-    #pomègues h3
+    #pomègues h4
     {
-        margin-top: 14.7em;
+        margin-top: 17.1em;
         padding: 0.6em 1em 1em 1em;
 
     }
@@ -4553,9 +4555,9 @@ footer a
         margin-left: 38em;
         margin-top: 0em;
     }
-    #frioul h3
+    #frioul h4
     {
-        margin-top: 14.7em;
+        margin-top: 17.1em;
         padding: 0.6em 1em 1em 1em;
     }
     
@@ -4565,9 +4567,9 @@ footer a
         
         
     }
-    #calanques h3
+    #calanques h4
     {
-        margin-top: 33.4em;
+        margin-top: 39.1em;
         padding: 0.6em 1em 1em 1em;
     }
     
@@ -4577,9 +4579,9 @@ footer a
         margin-left: 38em;
         margin-top: -43em;
     }
-    #la_garde h3
+    #la_garde h4
     {
-        margin-top: 14.7em;
+        margin-top: 17.1em;
         padding: 0.6em 1em 1em 1em;
     }
     
@@ -4589,9 +4591,9 @@ footer a
         margin-left: 38em;
         margin-top: 0em;
     }
-    #longchamp h3
+    #longchamp h4
     {
-        margin-top: 14.7em;
+        margin-top: 17.1em;
         padding: 0.6em 1em 1em 1em;
     }
     
